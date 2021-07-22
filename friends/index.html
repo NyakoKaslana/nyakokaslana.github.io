@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="theme-color" content="#000">
 <title>喵子的指挥室</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1626993895342">
+<link rel="shortcut icon" href="/favicon.ico?v=1626994101076">
 <link rel="stylesheet" href="/media/css/pisces.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -185,11 +185,6 @@
 
 
 
-  <div style="width: 100%; position: relative;">
-    <canvas id="canvasDiyBlock" style="width:100%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
-    <script src="/media/js/magic/clock.js"></script>
-  </div>
-
 </div>
 </div>
 <script>
@@ -243,10 +238,10 @@
               <p><strong class="language" data-lan="format">友链格式：</strong></p>
               <ul>
                 <li><span class="language" data-lan="site-name">网站名称：</span>喵子的指挥室</li>
-                <li><span class="language" data-lan="site-link">网站地址：</span><a href="https://nyakokaslana.github.io" data-pjax-state="">https://nyakokaslana.github.io</a></li>
+                <li><span class="language" data-lan="site-link">网站地址：</span><a href="http://localhost:4000" data-pjax-state="">http://localhost:4000</a></li>
                 <li><span class="language" data-lan="site-desc">网站描述：</span></li>
                 <li><span class="language" data-lan="site-img">网站头像：</span>
-                  <a href="https://nyakokaslana.github.io/images/avatar.png">https://nyakokaslana.github.io/images/avatar.png</a>
+                  <a href="http://localhost:4000/images/avatar.png">http://localhost:4000/images/avatar.png</a>
                 </li>
               </ul>
             </div>
@@ -430,7 +425,7 @@
   hljs.initHighlightingOnLoad();
   
   // 离开当前页title变化
-  var leaveTitle = "";
+  var leaveTitle = "外出执行任务中……";
   var normal_title = document.title;
   if (leaveTitle) {
     document.addEventListener('visibilitychange', function () {
@@ -483,7 +478,7 @@
     <div class="result" id="result">
       
       <div class="item">
-        <a class="result-title" style="opacity: 0;" href="https://nyakokaslana.github.io/post/test/"" data-c="
+        <a class="result-title" style="opacity: 0;" href="http://localhost:4000/post/test/"" data-c="
           &lt;p&gt;欢迎来到喵子·卡斯兰娜的指挥室&lt;br&gt;
 Willkommen zu das Kommando von Njako Kaslana.&lt;br&gt;
 Welcome to the command room of Nyako Kaslana.&lt;br&gt;
@@ -791,7 +786,15 @@ Bienvenue à la salle de commandement de Nyako Kaslanna.&lt;br&gt;
 
 
   <div class="snow-container"></div>
-  <script src="/media/js/bg/snow.js"></script>
+  <script src="/media/js/bg/canvas-nest.js"></script>
+  <script>
+  const config = {
+    color: '255,0,0',
+    count: 88,
+  };
+  // Using config rendering effect at 'element'.
+  const cn = new CanvasNest(document.querySelector('.snow-container'), config);
+  </script>
 
 
 </html>
