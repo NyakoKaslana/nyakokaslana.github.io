@@ -2062,6 +2062,16 @@ body {
         width: 960px;
         margin: 0 auto;
       }
+    @font-face {
+      font-family: 'SourceHanSansCN-Regular';
+      src: url('/media/fonts/SourceHanSansCN-Regular.ttf');
+    }
+    * {
+        font-family: 'SourceHanSansCN-Regular';
+    }
+    .katex-block *{
+      font-family: 'KaTeX_Main';
+    }
     body {
       color: #555;
     }
