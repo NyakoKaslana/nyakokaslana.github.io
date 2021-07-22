@@ -1,2 +1,0 @@
-# nyakokaslana.github.io
- 
