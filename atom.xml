@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://nyakokaslana.github.io</id>
     <title>喵子的指挥室</title>
-    <updated>2021-09-05T10:16:50.918Z</updated>
+    <updated>2021-09-05T10:21:27.982Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <link rel="alternate" href="https://nyakokaslana.github.io"/>
+    <link rel="self" href="https://nyakokaslana.github.io/atom.xml"/>
+    <logo>https://nyakokaslana.github.io/images/avatar.png</logo>
+    <icon>https://nyakokaslana.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 喵子的指挥室</rights>
     <entry>
         <title type="html"><![CDATA[妖雾重来]]></title>
-        <id>http://localhost:4000/post/yao-wu-chong-lai/</id>
-        <link href="http://localhost:4000/post/yao-wu-chong-lai/">
+        <id>https://nyakokaslana.github.io/post/yao-wu-chong-lai/</id>
+        <link href="https://nyakokaslana.github.io/post/yao-wu-chong-lai/">
         </link>
         <updated>2021-07-27T16:49:39.000Z</updated>
         <content type="html"><![CDATA[<p>有些人，我不说是谁。</p>
@@ -32,8 +32,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[欢迎来到喵子·卡斯兰娜的指挥室]]></title>
-        <id>http://localhost:4000/post/test/</id>
-        <link href="http://localhost:4000/post/test/">
+        <id>https://nyakokaslana.github.io/post/test/</id>
+        <link href="https://nyakokaslana.github.io/post/test/">
         </link>
         <updated>2021-07-22T19:59:52.000Z</updated>
         <content type="html"><![CDATA[<p>Willkommen zu das Kommando von Njako Kaslana.<br>
